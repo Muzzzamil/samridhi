@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+          font-family:'Comic Sans MS', cursive;
+          background-color: black; /* Adjust background color if needed */
+      }
+      .container {
+          text-align: center; /* Center align text and flowers */
+          position: relative; /* Position relative for absolute positioning of elements */
+      }
+      h1 {
+          color: white;
+          font-size: 36px;
+          margin: 5px 0; /* Add some margin for spacing */
+          opacity: 0; /* Initially hide the text */
+          animation: fadeIn 2s forwards; /* Fade in animation */
+          animation-delay: 2s; /* Delay to match flower animation */
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      @keyframes fadeIn {
+          to {
+              opacity: 1; /* Fade in effect */
+          }
+      }
+  </style>
     <link rel="stylesheet" href="style.css">
     <script src="main.js" type="text/javascript"></script><title>Flowers</title>
 </head>
     
 <body class="not-loaded">
     <div class="night"></div>
+    <h1>Fuck u samridhi</h1>
     <div class="flowers">
       <div class="flower flower--1">
         <div class="flower__leafs flower__leafs--1">
